@@ -138,7 +138,7 @@ export default function About() {
                     in first principles thinking and continuous learning.
                   </p>
                   <p className="text-muted-foreground">
-                    I've had the privilege of working with diverse teams across various industries, from early-stage
+                    I&#39;ve had the privilege of working with diverse teams across various industries, from early-stage
                     startups to established enterprises. This experience has taught me the importance of adaptability,
                     clear communication, and pragmatic problem-solving.
                   </p>

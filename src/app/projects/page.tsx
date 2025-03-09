@@ -32,43 +32,43 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'Project One',
+    title: 'APU Basketball Club - Website & Management System',
     description:
-      'A full-stack web application built with Next.js, TypeScript, and Tailwind CSS. Features include authentication, real-time updates, and responsive design.',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js'],
-    link: 'https://github.com/yourusername/project-one',
+      'A full-stack web application built with JavaScript, CSS, ASP.NET, C#; with MySQL for server-side ops. Features include authentication, real-time updates, and responsive design.',
+    technologies: ['JavaScript', 'CSS', 'ASP.NET', 'C#'],
+    link: 'https://github.com/smustafaamir/Group9-Project-CT050-3-2-WAPP',
     demoLink: 'https://project-one-demo.com',
-    stars: 128,
+    stars: 12,
     featured: true,
   },
   {
-    title: 'Project Two',
+    title: 'Localised FHIR-based Web Application',
     description:
-      'A mobile-first e-commerce platform with features like product filtering, cart management, and payment integration.',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
+      'A localised diagnostics management and interoperability system (still initial stages of development. Using Next.js for interface, and Node.js for custom API development.',
+    technologies: ['Next.js', 'Node.js', 'MongoDB', 'Express'],
     link: 'https://github.com/yourusername/project-two',
     demoLink: 'https://project-two-demo.com',
-    stars: 89,
+    stars: 8,
     featured: true,
   },
   {
-    title: 'Project Three',
+    title: 'Hangman Game (cliche, I know)',
     description:
-      'A real-time collaboration tool for teams, featuring document editing, chat, and task management.',
-    technologies: ['Vue.js', 'Firebase', 'Tailwind CSS', 'WebSocket'],
-    link: 'https://github.com/yourusername/project-three',
-    demoLink: 'https://project-three-demo.com',
-    stars: 45,
+      'A bare-bones hangman game with a hint-generation module, and a dynamic light/dark/system mode toggle.',
+    technologies: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
+    link: 'https://github.com/smustafaamir/JS-Hangman-Game',
+    demoLink: 'https://hangman-game-next.vercel.app/',
+    stars: 4,
     featured: false,
   },
   {
-    title: 'Project Four',
+    title: 'Keras on Tensorflow',
     description:
-      'An AI-powered analytics dashboard for business intelligence and data visualization.',
-    technologies: ['React', 'Python', 'TensorFlow', 'D3.js'],
-    link: 'https://github.com/yourusername/project-four',
+      'A Jupyter notebook of my basically tinkering around with Keras on Tensorflow with dummy data and generating meaningless outputs.',
+    technologies: ['Python', 'Keras', 'TensorFlow'],
+    link: 'https://github.com/smustafaamir/Keras-Tensorflow-v1',
     demoLink: 'https://project-four-demo.com',
-    stars: 67,
+    stars: 0,
     featured: false,
   },
 ];
@@ -91,7 +91,7 @@ export default function Projects() {
             Featured Work
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            A collection of projects I've built and contributed to
+            A collection of projects I&#39;ve built and contributed to
           </p>
         </motion.div>
 

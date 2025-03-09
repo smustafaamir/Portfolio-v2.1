@@ -112,19 +112,19 @@ export function Footer() {
             <h3 className="text-lg font-semibold">Get in Touch</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="mailto:your.email@example.com" className="group flex items-center text-sm text-muted-foreground transition-colors hover:text-foreground">
+                <Link href="mailto:s.mustafaamir@gmail.com" className="group flex items-center text-sm text-muted-foreground transition-colors hover:text-foreground">
                   <Mail className="mr-2 h-4 w-4" />
-                  your.email@example.com
+                  s.mustafaamir@gmail.com
                 </Link>
               </li>
               <li>
                 <Link href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer" className="group flex items-center text-sm text-muted-foreground transition-colors hover:text-foreground">
                   <Globe className="mr-2 h-4 w-4" />
-                  yourwebsite.com
+                  smustafaamir.com
                 </Link>
               </li>
               <li className="text-sm text-muted-foreground">
-                Based in Your Location
+                Based in Kuala Lumpur
               </li>
             </ul>
           </div>

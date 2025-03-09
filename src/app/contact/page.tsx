@@ -120,11 +120,11 @@ export default function Contact() {
             <Card className="group relative transition-all duration-300 hover:shadow-xl backdrop-blur-none hover:backdrop-blur-sm bg-background/80 hover:bg-background/50">
               <div className="absolute -inset-[1px] rounded-lg bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 opacity-0 blur transition-all duration-300 group-hover:opacity-20 pointer-events-none"></div>
               <CardHeader>
-                <CardTitle>Join the Newsletter</CardTitle>
+                <CardTitle>Join my Newsletter</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-muted-foreground">
-                  Join 2,000+ readers and get infrequent updates on new projects.
+                  Join my newsletter and get infrequent updates on new projects.
                 </p>
                 <div className="flex gap-4">
                   <Input 
@@ -181,11 +181,11 @@ export default function Contact() {
                 <div className="space-y-4">
                   <h3 className="font-medium">Email</h3>
                   <Link
-                    href="mailto:your.email@example.com"
+                    href="mailto:s.mustafaamir@gmail.com"
                     className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-foreground"
                   >
                     <Mail className="h-4 w-4" />
-                    your.email@example.com
+                    s.mustafaamir@gmail.com
                   </Link>
                 </div>
               </CardContent>

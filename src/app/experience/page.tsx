@@ -16,51 +16,49 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Innovation Labs',
-    period: 'Jan 2022 - Present',
-    description: 'Leading development of enterprise-scale web applications and mentoring junior developers.',
-    technologies: ['React', 'Node.js', 'TypeScript', 'AWS', 'MongoDB'],
+    title: 'React & Spring Boot Developer - Intern',
+    company: 'Continental Malaysia',
+    period: 'May 2025 - Sep 2025',
+    description: 'Developing POC for a material specification system.',
+    technologies: ['React', 'Spring Boot', 'TypeScript'],
     achievements: [
-      'Architected and implemented a microservices-based platform that improved system scalability by 200%',
-      'Led a team of 5 developers in delivering critical features ahead of schedule',
-      'Reduced API response times by 60% through optimization and caching strategies'
+      'Yet to start',
     ]
   },
   {
-    title: 'Full Stack Developer',
-    company: 'Digital Solutions Inc.',
-    period: 'Mar 2020 - Dec 2021',
-    description: 'Developed and maintained multiple client-facing web applications.',
-    technologies: ['Vue.js', 'Python', 'Django', 'PostgreSQL', 'Docker'],
+    title: 'Software and Product Lead',
+    company: 'Katalog',
+    period: 'Nov 2022 - Dec 2023',
+    description: 'Co-founded an alternative marketing and analytics technology start-up with a team of 4 high school friends.',
+    technologies: ['React Native', 'Node.js', 'AWS Lambda', 'Amplify', 'Strapi'],
     achievements: [
-      'Implemented automated testing that reduced bug reports by 40%',
-      'Developed a custom CMS that improved content management efficiency by 50%',
-      'Successfully migrated legacy systems to modern tech stack'
+      'Developed and scaled our full-stack cross-platform application using React Native, MongoDB (Atlas) and Docker',
+      'Used Node.js to develop custom APIs, in-addition to using the OpenAI API for real-time generative recommendations',
+      'Used AWS Lambda for event-driven server-less management'
     ]
   },
   {
-    title: 'Frontend Developer',
-    company: 'WebCraft Studios',
-    period: 'Jun 2018 - Feb 2020',
-    description: 'Focused on creating responsive and accessible web interfaces.',
-    technologies: ['React', 'JavaScript', 'SASS', 'Redux', 'Jest'],
+    title: 'Freelance Product Marketing Consultant',
+    company: 'Self-employed (freelance)',
+    period: 'Mar 2020 - Jul 2023',
+    description: 'Provided consulting services to SMEs and niche/fringe market companies.',
+    technologies: ['R', 'PowerBI', 'Google Analytics', 'Google Trends', 'Semrush'],
     achievements: [
-      'Improved website performance scores by 30%',
-      'Implemented accessibility features that achieved WCAG 2.1 compliance',
-      'Created reusable component library used across multiple projects'
+      'Scaled a SaaS product\'s organic traffic by 80% with a revised content marketing and product positioning strategy based on age',
+      'Developed an e-commerce strategy for a Shopify-based store to raise new customer revenue by 16%',
+      'Helped redesign a client\'s landing-page with in-house marcomm team to unlock over 5-6x organic traffic growth'
     ]
   },
   {
-    title: 'Junior Web Developer',
-    company: 'StartUp Ventures',
-    period: 'Jan 2017 - May 2018',
-    description: 'Contributed to various web development projects and learned modern development practices.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
+    title: 'Design Lead',
+    company: 'Pertubuhan Keprihatinan Pendidikan Malaysia',
+    period: 'Apr 2021 - Jul 2021',
+    description: 'Contributed to eliminating technology disparity amongst B40 families.',
+    technologies: ['Photoshop', 'Illustrator', 'Canva'],
     achievements: [
-      'Developed and launched 5+ client websites',
-      'Reduced page load times by 25% through optimization techniques',
-      'Implemented responsive design principles across all projects'
+      'Created custom .PSD and .AI templates that were implemented across a socmed footprint of 5000+ followers',
+      'Boosted engagement by 181% compared to previous metrics',
+      'Spearheaded a team of 4 designers as part of a larger collaborative'
     ]
   }
 ];
