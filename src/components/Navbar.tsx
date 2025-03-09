@@ -33,9 +33,7 @@ export function Navbar() {
       <Button
         variant="ghost"
         size="icon"
-        onClick={() => {
-          setTheme(resolvedTheme === 'dark' ? 'light' : 'dark');
-        }}
+        onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
         className="ml-2"
       >
         {resolvedTheme === 'dark' ? (

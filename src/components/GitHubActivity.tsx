@@ -18,6 +18,10 @@ interface GitHubEvent {
     action?: string;
     size?: number;
     ref_type?: string;
+    pull_request?: {
+      title: string;
+      number: number;
+    };
   };
 }
 
