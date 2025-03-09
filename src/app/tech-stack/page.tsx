@@ -1,6 +1,7 @@
 'use client';
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from "@/components/ui/badge";
 import { motion } from 'framer-motion';
 import {
   Code2,
@@ -17,6 +18,7 @@ import {
   Terminal,
   DatabaseIcon,
   Sparkles,
+  Globe,
 } from 'lucide-react';
 
 const fadeIn = {
@@ -84,7 +86,7 @@ export default function TechStack() {
             Technologies & Tools
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            The tools and technologies I use to bring ideas to life
+            Here&apos;s an overview of the technologies I&apos;m proficient in and use regularly.
           </p>
         </motion.section>
 

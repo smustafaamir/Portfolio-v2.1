@@ -11,7 +11,7 @@ export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
-  const { resolvedTheme } = useTheme();
+  const { resolvedTheme, setTheme } = useTheme();
 
   useEffect(() => {
     setMounted(true);
@@ -34,8 +34,7 @@ export function Navbar() {
         variant="ghost"
         size="icon"
         onClick={() => {
-          const newTheme = resolvedTheme === 'dark' ? 'light' : 'dark';
-          document.documentElement.classList.toggle('dark');
+          setTheme(resolvedTheme === 'dark' ? 'light' : 'dark');
         }}
         className="ml-2"
       >

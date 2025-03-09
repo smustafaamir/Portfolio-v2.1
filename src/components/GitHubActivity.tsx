@@ -10,7 +10,15 @@ interface GitHubEvent {
     name: string;
   };
   created_at: string;
-  payload: any;
+  payload: {
+    commits?: Array<{
+      message: string;
+    }>;
+    description?: string;
+    action?: string;
+    size?: number;
+    ref_type?: string;
+  };
 }
 
 export function GitHubActivity() {
