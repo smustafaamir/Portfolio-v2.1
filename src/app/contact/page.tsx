@@ -47,7 +47,7 @@ export default function Contact() {
             Something on your mind?
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            Let's discuss your project or just say hello
+            Let&apos;s discuss your project or just say hello
           </p>
         </motion.div>
 

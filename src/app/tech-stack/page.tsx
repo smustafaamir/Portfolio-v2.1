@@ -1,12 +1,10 @@
 'use client';
 
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from '@/components/ui/card';
 import { motion } from 'framer-motion';
 import {
   Code2,
   Server,
-  Wrench,
   Boxes,
   Database,
   GitBranch,
@@ -18,7 +16,6 @@ import {
   Terminal,
   DatabaseIcon,
   Sparkles,
-  Globe,
 } from 'lucide-react';
 
 const fadeIn = {
