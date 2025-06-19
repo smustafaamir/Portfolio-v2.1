@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Use This as a Template for your Website
+
+1. Clone this repo:
+```
+git clone https://github.com/smustafaamir/Portfolio-v2.1.git
+```
+2. Install the dependencies:
+```
+npm install 
+```
+3. Run the development server:
+```
+npm run dev
+```
+
 ## Project Directory
 
 ```
